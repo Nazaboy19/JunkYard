@@ -1,2 +1,2 @@
 # JunkYard
-Main purpose to reate files to work on different project or ideas.
+Main purpose is to create files to work on different project or ideas.AKA nothing good lol.
