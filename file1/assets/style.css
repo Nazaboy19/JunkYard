@@ -1,0 +1,18 @@
+body{
+    background-color: #CB7075;
+}
+canvas {
+    border:1px solid #CB7075;
+    background-color: #77A8D0;
+}
+.w3-container{
+    text-align: center;
+}
+
+.canvas{
+    text-align: center;
+    display: block;
+    display: inline-block;
+    float: left;
+     margin-left: 3px;
+}
