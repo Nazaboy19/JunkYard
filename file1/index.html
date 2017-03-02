@@ -11,13 +11,27 @@ canvas {
     border:1px solid #CB7075;
     background-color: #77A8D0;
 }
+.w3-container{
+    text-align: center;
+}
+
+.canvas{
+    text-align: center;
+    display: block;
+    display: inline-block;
+    float: left;
+     margin-left: 3px;
+}
 </style>
 
 </head>
+<div class="w3-container">
 <body onload="startGame()">
 
+    
 
-<script type="text/javascript"> 
+
+<script type="text/javascript" class="java"> 
 alert("Hello! I am an alert box!!");
 
 var myGamePiece;
@@ -146,6 +160,7 @@ function myFunction() {
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.03)">FAST!</button>
 <p>Use the FAST! button to stay in it!</p>
 <p>Dare if you care.</p>
+</div>
 <div>
     <h2>Hey, How was this?</h2>
     <form action="">
