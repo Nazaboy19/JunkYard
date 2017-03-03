@@ -1,4 +1,4 @@
-alert("Hello! I am an alert box!!");
+alert("Heyllo its the CIA and you are going to prison! I am an alert box!!");
 
 var myGamePiece;
 var myObstacles = [];
