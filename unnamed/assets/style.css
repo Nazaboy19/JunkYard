@@ -1,7 +1,17 @@
 body{
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	
 }
 h1{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
+	font-size: 80px;
+}
+h2{
+	font-size: 72px;
+}
+button{
+	font-size: 34px;
+	background-color: #35F675;
 }

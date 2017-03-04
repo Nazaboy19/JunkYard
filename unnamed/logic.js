@@ -16,8 +16,8 @@ function selectElementContents(el) {
     sel.addRange(range);
 }
 
-var adjectives = ["Adam", "Stephen", "Ricky", ""];
+var adjectives = ["Adam", "Stephen", "Ricky", "Conor"];
 
-var nouns = ["ninja", "Killer", "CHETA!"];
+var nouns = ["ninja", "Killer","DA Killer", "CHETA!"];
 
 $('button').click();
