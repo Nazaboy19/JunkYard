@@ -1,6 +1,11 @@
 body{
 	
 }
+#wrapper{
+	margin: 0 auto;
+	text-align: center;
+	float: block;
+}
 #MainName{
 	color: black;
 	text-align: center;
