@@ -1,0 +1,85 @@
+
+body, html {
+  background-color: #3c1123;
+}
+h2{
+  text-align: right;
+  color: white;
+}
+.container {
+  width: 420px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.fox-body {
+  position: absolute;
+  top: 250px;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border-top: 100px solid #fff;
+  border-bottom: 100px solid #3c1123;
+  border-left: 100px solid #f05623;
+  border-right: 100px solid #f05623;
+}
+
+.fox-body-2 {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  width: 100px;
+  height: 200px;
+  box-sizing: border-box;
+  border-top: 100px solid #f05623;
+  border-bottom: 100px solid #3c1123;
+  border-right: 100px solid #f05623;
+}
+
+.fox-neck {
+  position: absolute;
+  top: 150px;
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  border-top: 100px solid #f05623;
+  border-right: 100px solid #fff;
+  border-left: 100px solid #fff;
+}
+
+.fox-head {
+  position: absolute;
+  top: 0px;
+  width: 200px;
+  height: 150px;
+  box-sizing: border-box;
+  border-top: 100px solid #3c1123;
+  border-right: 100px solid #f05623;
+  border-left: 100px solid #f05623;
+}
+
+.fox-tail {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 130px;
+  left: 300px;
+  box-sizing: border-box;
+  border-top: 60px solid #fff;
+  border-bottom: 60px solid #f05623;
+  border-left: 60px solid #f05623;
+  border-right: 60px solid #fff;
+  transform-origin: left bottom;
+  animation: tail-move 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes tail-move {
+  0%, 50%  {transform: rotate(90deg)}
+  25%, 75% {transform: rotate(-45deg)}
+  100%     {transform: rotate(0deg)}
+}
