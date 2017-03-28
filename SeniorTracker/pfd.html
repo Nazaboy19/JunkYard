@@ -44,11 +44,26 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<div>
+  <form action="/action_page.php">
+    <label for="date">Date</label>
+    <input type="text" id="fname" name="date" placeholder="Todays Date..">
 
+    <label for="ttd">Things to do</label>
+    <input type="text" id="ttd" name="thingstd" placeholder="You're Plans..">
 
-<div ng-app="rmWeeklySchedule">
- <rm-weekly-schedule interval="15">
+    <label for="city">City</label>
+    <select id="city" name="city">
+      <option value="orlando">Orlando</option>
+      <option value="tampa">Tampa</option>
+      <option value="miami">Miami</option>
+    </select>
+  
+  
+  </form>
 </div>
+
+
 <script src='pfd.js'></script>
 </body>
 </html>
