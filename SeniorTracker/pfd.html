@@ -48,11 +48,16 @@
 
 <div>
   <form action="/action_page.php">
-    <label for="date">Date</label>
-    <input type="text" id="fname" name="date" placeholder="Todays Date..">
+    <label for="date">List</label>
+    <input type="text" id="fname" name="list" placeholder="Todays List..">
 
-    <label for="ttd">Things to do</label>
-    <input type="text" id="ttd" name="thingstd" placeholder="You're Plans..">
+    <select>
+    <label for="options">Options</label>
+  <option value="supmark">Groceries</option>
+  <option value="errans">Errans</option>
+  <option value="shopping">Shopping</option>
+  <option value="etc">Etc</option>
+</select>
 
     <label for="city">City</label>
     <select id="city" name="city">
@@ -60,6 +65,11 @@
       <option value="tampa">Tampa</option>
       <option value="miami">Miami</option>
     </select>
+
+    <label for="ttd">Comments</label>
+    <input type="text" id="ttd" name="thingstd" placeholder="You're Plans..">
+
+    
   
   <input type="submit" value="Save">
   </form>
