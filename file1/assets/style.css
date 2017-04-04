@@ -16,3 +16,8 @@ canvas {
     float: left;
      margin-left: 3px;
 }
+.escape{
+	float: right;
+	font-size: 24px;
+	color: blue;
+}
